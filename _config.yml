@@ -6,6 +6,8 @@ language: 'en-us'
 name: "Lorenzo's Music"
 description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
 
+promo: <script type="text/javascript"> window.cashmusic.embed('https://cashmusic.org/public','5840');</script>
+
 # Author's info
 author: 'Casper McFadden'
 # edit 'categories' in the front matter of every post to match this username
