@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Finding The Way Home
-cover: 'assets/images/cover1.jpg'
+cover: 'https://4.bp.blogspot.com/-D2G_JHrydtE/VGfdkF9gepI/AAAAAAAAYX8/7dNWQvBi2gk/w1400-no/inwts-guy-cover.png'
 class: 'home-template'
 navigation: True
-logo: 'assets/images/ghost.png'
+logo: 'https://lh3.googleusercontent.com/-BM_iWOmV5V4/AAAAAAAAAAI/AAAAAAAAAVI/w5rfSEMC-D4/s149-p-rw-no/photo.jpg'
 current: home
 ---
 <!-- < default -->
@@ -12,9 +12,9 @@ current: home
 
 <!-- The big featured header  -->
 <header class="main-header {% if page.cover %}"
-        style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+        style="background-image: url({% if page.cover contains 'http' %}{{ page.cover }}{% else %}{{ site.baseurl }}{{ page.cover }}{% endif %}) {% else %}no-cover{% endif %}">
     <nav class="main-nav overlay clearfix">
-        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
+        {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.logo }}" alt="Blog Logo" /></a>{% endif %}
         {% if page.navigation %}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {% endif %}
