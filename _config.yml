@@ -19,7 +19,7 @@ short_url: 'lorenzosmusic.github.io/jasper/'
 google_analytics: UA-
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/jasper/'
+baseurl: /jasper/
 
 # Permalinks
 permalink: /:title
