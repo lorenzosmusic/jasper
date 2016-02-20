@@ -3,8 +3,10 @@ paginate: 5
 language: 'en-us'
 
 # Website info
-name: 'Finding The Way Home'
+name: "Lorenzo's Music"
 description: "A beautiful narrative written with the world's most elegant publishing platform. The story begins here."
+
+promo: <script type="text/javascript"> window.cashmusic.embed('https://cashmusic.org/public','5840');</script>
 
 # Author's info
 author: 'Casper McFadden'
@@ -13,6 +15,15 @@ nickname: casper
 bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
 location: 'Maine, USA'
 url: 'http://biomadeira.github.io/jasper/'
+image: 'assets/images/casper.png'
+
+# Author's info
+author: 'Tom Ray'
+# edit 'categories' in the front matter of every post to match this username
+nickname: tom
+bio: 'A dude.'
+location: 'Wisconsin, USA'
+url: 'http://lorenzosmusic.github.io/'
 image: 'assets/images/casper.png'
 
 short_url: 'lorenzosmusic.github.io/jasper/'
@@ -38,7 +49,7 @@ exclude: [vendor]
 # Post's page cover as a per-post basis _posts/...
 # Disqus comments as a per-post basis
 # ...
-
+logo: https://lh3.googleusercontent.com/-BM_iWOmV5V4/AAAAAAAAAAI/AAAAAAAAAVI/w5rfSEMC-D4/s32-p-rw-no/photo.jpg
 
 # Settings for builing master branch with travis-ci
 # with jekyll-travis

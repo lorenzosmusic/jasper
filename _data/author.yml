@@ -1,0 +1,16 @@
+# Author's info
+- author: 'Casper McFadden'
+  # edit 'categories' in the front matter of every post to match this username
+  nickname: casper
+  bio: 'A paranormal expert and his daughter bunk in an abandoned house populated by 3 mischievous ghosts and one friendly one.'
+  location: 'Maine, USA'
+  url: 'http://biomadeira.github.io/jasper/'
+  image: 'assets/images/casper.png'
+
+- author: 'Tom Ray'
+  # edit 'categories' in the front matter of every post to match this username
+  nickname: tom
+  bio: 'A dude.'
+  location: 'Wisconsin, USA'
+  url: 'http://lorenzosmusic.github.io/'
+  image: 'https://lh3.googleusercontent.com/-BM_iWOmV5V4/AAAAAAAAAAI/AAAAAAAAAVI/w5rfSEMC-D4/s32-p-rw-no/photo.jpg'
